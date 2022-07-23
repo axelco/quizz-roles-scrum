@@ -1,0 +1,24 @@
+$primary : #6610f2;
+$dark : #38383a;
+// $secondary : #FFF500;
+$success : #09e1c0;
+$danger : #FF3C38;
+$warning : #FFE440;
+$white : #ffffff;
+$white-op-80 : rgba($white, .8);
+
+$alert-bg-scale:                -80% !default;
+$alert-border-scale:            -30% !default;
+$alert-color-scale:             80% !default;
+$alert-padding-y:               1.5rem;
+$alert-padding-x:               1.5rem;
+$alert-border-width:            0 !default;
+
+$font-weight-base : 300;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+$border-color : $gray-100;
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap);
